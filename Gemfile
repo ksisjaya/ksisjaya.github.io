@@ -2,5 +2,6 @@
 
 source "https://rubygems.org"
 
-gem "jekyll"
 # gem "rails"
+
+gem "jekyll", "~> 4.2"
