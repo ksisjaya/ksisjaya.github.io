@@ -1,22 +1,22 @@
 #particles-js {
-    background: $background;
+    background: $base-color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     vertical-align: bottom;
     width: 100%;
     min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     .particles-js-canvas-el {
-      width:100% !important;
-      height:100vh !important;
+        width: 100% !important;
+        height: 100vh !important;
     }
-  }
-  
+}
+
 header {
     z-index: 1;
     text-align: center;
-    color: $mainText;
+    color: $secondary-color;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -24,120 +24,71 @@ header {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     .site-title {
-      font-size: 50px;
-      display: block;
-      line-height: 1;
-      color: $mainText;
-      @media only screen and (min-width:$cut){
-        margin: 0;
-        font-size: 100px;
-      }
+        font-size: 50px;
+        display: block;
+        line-height: 1;
+        color: $secondary-color;
+        @media only screen and (min-width:$min-width-cut) {
+            margin: 0;
+            font-size: 100px;
+        }
     }
-    .site-description {
-      font-size: 20px;
-      display: block;
-      line-height: 1;
-      color: $mainText;
-      margin-top: 10px;
-      @media only screen and (min-width:$cut){
-        font-size: 40px;
-      }
-    }
-  }
-  
+}
+
 .header-links {
     margin: 10px;
     .link {
-      color: $mainText;
-      text-decoration: none;
-      font-size: 15px;
-      margin: 10px;
-
-
-      background:
-     linear-gradient(
-       to bottom,
-       #000 0%,
-        #000 100%
-     );
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 4px 4px;
-    color: #000;
-    text-decoration: none;
-    transition: background-size .7s;
-
-    &:hover {
-        background-size: 4px 50px;
-        color: #fff;
-      }
-
-      @media only screen and (min-width:$cut){
+        color: $secondary-color;
+        text-decoration: none;
         font-size: 20px;
-      }
+        margin: 10px;
+        background: linear-gradient(to bottom, 
+                                    $secondary-color 0%,
+                                    $secondary-color 100%);
+        background-position: 0 150%;
+        background-repeat: repeat-x;
+        background-size: 4px 4px;
+        transition: background-size 0.5s;
+        &:hover {
+            background-size: 4px 50px;
+            color: $base-color;
+        }
+        &:active {
+            background-size: 4px 50px;
+            color: $base-color;
+        }
+        @media only screen and (min-width:$min-width-cut) {
+            font-size: 40px;
+        }
     }
 }
-  
-  .header-icons {
+
+.header-icons {
     display: flex;
     justify-content: center;
     text-align: center;
     .icon {
-      text-align: center;
-      color: $mainText;
-      width: 20px;
-      height: 20px;
-      font-size: 20px;
-      padding: 10px;
-      margin: 5px;
-      border-radius: 50%;
-      border: 2px solid $mainText;
-      transition: all .7s;
-      &:hover {
-        color: $background;
-        background: $mainText;
-      }
-      &:active {
-        color: $background;
-        background: $mainText;
-      }
-      @media only screen and (min-width:$cut) {
-        width: 35px;
-        height: 35px;
-        font-size: 35px;
-      }
-    }
-  }
-  
-  .down {
-    color: #000;
-    position: absolute;
-    bottom: 25px;
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    font-size: 30px;
-    cursor: pointer;
-    .icon {
-        position: absolute;
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        width: 100px;
-        height: 100px;
-        fill: #fff;
-        -webkit-animation: pulse 1.3s infinite;
-        animation: pulse 1.3s infinite;
+        text-align: center;
+        color: $secondary-color;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        padding: 10px;
+        margin: 5px;
+        border: 2px solid $secondary-color;
+        transition: all 0.5s;
         &:hover {
-          color: $mainText;
+            color: $base-color;
+            background-color: $secondary-color;
         }
         &:active {
-          color: $mainText;
+            color: $base-color;
+            background-color: $secondary-color;
+        }
+        @media only screen and (min-width:$min-width-cut) {
+            width: 35px;
+            height: 35px;
+            font-size: 35px;
         }
     }
-  }
-  
+}
