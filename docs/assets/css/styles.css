@@ -21,11 +21,9 @@ header .site-title { font-size: 50px; display: block; line-height: 1; color: #00
 
 .header-links { margin: 10px; }
 
-.header-links .link { color: #000000; text-decoration: none; font-size: 20px; margin: 10px; background: linear-gradient(to bottom, #000000 0%, #000000 100%); background-position: 0 150%; background-repeat: repeat-x; background-size: 4px 4px; transition: background-size 0.5s; }
+.header-links .link { color: #000000; text-decoration: none; font-size: 20px; margin: 10px; background: linear-gradient(to bottom, #000000 0%, #000000 100%); background-position: 0 100%; background-repeat: repeat-x; background-size: 4px 2px; transition: background-size 0.5s; }
 
 .header-links .link:hover { background-size: 4px 50px; color: #ffffff; }
-
-.header-links .link:active { background-size: 4px 50px; color: #ffffff; }
 
 @media only screen and (min-width: 550px) { .header-links .link { font-size: 40px; } }
 
@@ -34,8 +32,6 @@ header .site-title { font-size: 50px; display: block; line-height: 1; color: #00
 .header-icons .icon { text-align: center; color: #000000; width: 20px; height: 20px; font-size: 20px; padding: 10px; margin: 5px; border: 2px solid #000000; transition: all 0.5s; }
 
 .header-icons .icon:hover { color: #ffffff; background-color: #000000; }
-
-.header-icons .icon:active { color: #ffffff; background-color: #000000; }
 
 @media only screen and (min-width: 550px) { .header-icons .icon { width: 35px; height: 35px; font-size: 35px; } }
 

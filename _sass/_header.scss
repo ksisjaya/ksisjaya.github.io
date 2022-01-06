@@ -45,15 +45,11 @@ header {
         background: linear-gradient(to bottom, 
                                     $secondary-color 0%,
                                     $secondary-color 100%);
-        background-position: 0 150%;
+        background-position: 0 100%;
         background-repeat: repeat-x;
-        background-size: 4px 4px;
+        background-size: 4px 2px;
         transition: background-size 0.5s;
         &:hover {
-            background-size: 4px 50px;
-            color: $base-color;
-        }
-        &:active {
             background-size: 4px 50px;
             color: $base-color;
         }
@@ -78,10 +74,6 @@ header {
         border: 2px solid $secondary-color;
         transition: all 0.5s;
         &:hover {
-            color: $base-color;
-            background-color: $secondary-color;
-        }
-        &:active {
             color: $base-color;
             background-color: $secondary-color;
         }
