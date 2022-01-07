@@ -1,0 +1,61 @@
+#projects {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+    @media only screen and (min-width: $min-width-cut) {
+      width: 80%;
+    }
+  }
+
+  .tech {
+    margin: 10px;
+  }
+  
+  .user {
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    p {
+      font-size: 16px;
+    }
+    @media only screen and (min-width: $min-width-cut) {
+      flex-wrap: nowrap;
+      font-size: 75px;
+    }
+  }
+
+  .project-link {
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 5px;
+    color: $secondary-color;
+    background-color: transparent;
+    border: 1px solid $secondary-color;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease-out,
+                background-color 0.3s ease-out,
+                border-color 0.3s ease-out;
+    &:hover {
+      background-color: $base-color;
+      border-color: $base-color;
+      color: #fff;
+      transition: color 0.3s ease-in,
+                  background-color 0.3s ease-in,
+                  border-color 0.3s ease-in;
+    }
+    &:active {
+      background-color: $base-color;
+      border-color: $base-color;
+      color: #fff;
+      transition: color 0.3s ease-in,
+                  background-color 0.3s ease-in,
+                  border-color 0.3s ease-in;
+    }
+  }

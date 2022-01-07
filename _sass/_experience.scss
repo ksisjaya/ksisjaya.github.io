@@ -1,0 +1,57 @@
+#experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    @media only screen and (min-width: $min-width-cut) {
+      width: 80%;
+    }
+}
+  
+.experience-section {
+    margin: 20px auto;
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    h5 {
+        margin: 0;
+    }
+    li {
+        color: $secondary-color;
+        font-size: 0.9rem;
+    }
+    p {
+        margin-right: 5px;
+    }
+}
+
+.experience-content {
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    h3, h4 {
+        margin: 0;
+    }
+    @media only screen and (min-width: $min-width-cut) {
+        float: right;
+        margin-top: -5%;
+        width: 48%;
+    }
+}
+
+.company-logo {
+    @media only screen and (min-width: $min-width-cut) {
+        float: left;
+        width: 48%;
+    }
+    img {
+        @media only screen and (min-width: $min-width-cut) {
+            float: left;
+        }
+    }
+}

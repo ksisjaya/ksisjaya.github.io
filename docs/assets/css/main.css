@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+html { scroll-behavior: smooth; }
+
+body { margin: 0; padding: 0; font-size: 100%; line-height: 1.5; font-family: 'Montserrat', sans-serif; background-color: #ffffff; color: #000000; }
+
+article, aside, figcaption, figure, footer, header, nav, section { display: block; }
+
+h1, h2, h3, h4 { line-height: 1.25; }
+
+h1 { font-size: 2.5rem; }
+
+h2 { font-size: 2rem; }
+
+h3 { font-size: 1.25rem; }
+
+h4 { font-size: 1rem; }
+
+.page-section { text-align: center; margin: 5px auto; }
+
+#particles-js { background: #ffffff; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; display: flex; vertical-align: bottom; width: 100%; min-height: 100vh; }
+
+#particles-js .particles-js-canvas-el { width: 100% !important; height: 100vh !important; }
+
+header { z-index: 1; text-align: center; color: #000000; position: absolute; top: 50%; left: 50%; margin: 0 auto; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+header .site-title { font-size: 50px; display: block; line-height: 1; color: #000000; }
+
+@media only screen and (min-width: 550px) { header .site-title { margin: 0; font-size: 100px; } }
+
+.header-links { margin: 10px; }
+
+.header-links .link { color: #000000; text-decoration: none; font-size: 20px; margin: 10px; background: linear-gradient(to bottom, #000000 0%, #000000 100%); background-position: 0 100%; background-repeat: repeat-x; background-size: 4px 2px; transition: background-size 0.5s; }
+
+.header-links .link:hover { background-size: 4px 50px; color: #ffffff; }
+
+@media only screen and (min-width: 550px) { .header-links .link { font-size: 30px; } }
+
+.header-icons { display: flex; justify-content: center; text-align: center; }
+
+.header-icons .icon { text-align: center; color: #000000; width: 20px; height: 20px; font-size: 20px; padding: 10px; margin: 5px; border: 2px solid #000000; transition: all 0.5s; }
+
+.header-icons .icon:hover { color: #ffffff; background-color: #000000; }
+
+@media only screen and (min-width: 550px) { .header-icons .icon { width: 35px; height: 35px; font-size: 35px; } }
+
+#about { width: 90%; margin: 0 auto; max-width: 960px; }
+
+@media only screen and (min-width: 550px) { #about { width: 80%; } }
+
+#about p { line-height: 3; }
+
+#about a { text-decoration: none; color: #000000; background: linear-gradient(to bottom, #000000 0%, #000000 100%); background-position: 0 100%; background-repeat: repeat-x; background-size: 4px 1px; transition: background-size 0.5s; }
+
+#about a:hover { background-size: 4px 50px; color: #ffffff; }
+
+#experience { display: flex; flex-direction: column; justify-content: space-between; width: 90%; max-width: 960px; margin: 0 auto; }
+
+@media only screen and (min-width: 550px) { #experience { width: 80%; } }
+
+.experience-section { margin: 20px auto; }
+
+.experience-section img { max-width: 100%; height: auto; border-radius: 5px; }
+
+.experience-section h5 { margin: 0; }
+
+.experience-section li { color: #000000; font-size: 0.9rem; }
+
+.experience-section p { margin-right: 5px; }
+
+.experience-content h2 { margin-top: 20px; margin-bottom: 0; }
+
+.experience-content h3, .experience-content h4 { margin: 0; }
+
+@media only screen and (min-width: 550px) { .experience-content { float: right; margin-top: -5%; width: 48%; } }
+
+@media only screen and (min-width: 550px) { .company-logo { float: left; width: 48%; } }
+
+@media only screen and (min-width: 550px) { .company-logo img { float: left; } }
+
+.footer { background: #000000; color: #ffffff; padding: 10px 0; margin-top: 100px; text-align: center; }
+
+.footer a { text-decoration: none; color: #ffffff; background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%); background-position: 0 100%; background-repeat: repeat-x; background-size: 4px 1px; transition: background-size 0.5s; }
+
+.footer a:hover { background-size: 4px 50px; color: #000000; }
+
+/*# sourceMappingURL=main.css.map */

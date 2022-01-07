@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -24,4 +28,17 @@ h1 {
 
 h2 {
     font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+.page-section {
+    text-align: center;
+    margin: 5px auto;
 }
