@@ -23,4 +23,79 @@
             color: $base-color;
         }
     }
+    .waterloo {
+        text-decoration: none;
+        color: #000000;
+        background: linear-gradient(to bottom, 
+                                    #FFD700 0%,
+                                    #FFD700 100%);
+        background-position: 0 100%;
+        background-repeat: repeat-x;
+        background-size: 4px 1px;
+        transition: background-size 0.5s;
+        &:hover {
+            background-size: 4px 50px;
+            color: $secondary-color;
+        }
+    }
+    .ford {
+        text-decoration: none;
+        color: $secondary-color;
+        background: linear-gradient(to bottom, 
+                                    #1351d8 0%,
+                                    #1351d8 100%);
+        background-position: 0 100%;
+        background-repeat: repeat-x;
+        background-size: 4px 1px;
+        transition: background-size 0.5s;
+        &:hover {
+            background-size: 4px 50px;
+            color: $base-color;
+        }
+    }
+    .ieso {
+        text-decoration: none;
+        color: $secondary-color;
+        background: linear-gradient(to bottom, 
+                                    #1b3664 0%,
+                                    #1b3664 100%);
+        background-position: 0 100%;
+        background-repeat: repeat-x;
+        background-size: 4px 1px;
+        transition: background-size 0.5s;
+        &:hover {
+            background-size: 4px 50px;
+            color: $base-color;
+        }
+    }
+    .linkedin {
+        text-decoration: none;
+        color: $secondary-color;
+        background: linear-gradient(to bottom, 
+                                    #0072b1 0%,
+                                    #0072b1 100%);
+        background-position: 0 100%;
+        background-repeat: repeat-x;
+        background-size: 4px 1px;
+        transition: background-size 0.5s;
+        &:hover {
+            background-size: 4px 50px;
+            color: $base-color;
+        }
+    }
+    .github {
+        text-decoration: none;
+        color: $secondary-color;
+        background: linear-gradient(to bottom, 
+                                    #333 0%,
+                                    #333 100%);
+        background-position: 0 100%;
+        background-repeat: repeat-x;
+        background-size: 4px 1px;
+        transition: background-size 0.5s;
+        &:hover {
+            background-size: 4px 50px;
+            color: $base-color;
+        }
+    }
 }

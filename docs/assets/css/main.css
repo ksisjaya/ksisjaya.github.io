@@ -53,6 +53,26 @@ header .site-title { font-size: 50px; display: block; line-height: 1; color: #00
 
 #about a:hover { background-size: 4px 50px; color: #ffffff; }
 
+#about .waterloo { text-decoration: none; color: #000000; background: linear-gradient(to bottom, #FFD700 0%, #FFD700 100%); background-position: 0 100%; background-repeat: repeat-x; background-size: 4px 1px; transition: background-size 0.5s; }
+
+#about .waterloo:hover { background-size: 4px 50px; color: #000000; }
+
+#about .ford { text-decoration: none; color: #000000; background: linear-gradient(to bottom, #1351d8 0%, #1351d8 100%); background-position: 0 100%; background-repeat: repeat-x; background-size: 4px 1px; transition: background-size 0.5s; }
+
+#about .ford:hover { background-size: 4px 50px; color: #ffffff; }
+
+#about .ieso { text-decoration: none; color: #000000; background: linear-gradient(to bottom, #1b3664 0%, #1b3664 100%); background-position: 0 100%; background-repeat: repeat-x; background-size: 4px 1px; transition: background-size 0.5s; }
+
+#about .ieso:hover { background-size: 4px 50px; color: #ffffff; }
+
+#about .linkedin { text-decoration: none; color: #000000; background: linear-gradient(to bottom, #0072b1 0%, #0072b1 100%); background-position: 0 100%; background-repeat: repeat-x; background-size: 4px 1px; transition: background-size 0.5s; }
+
+#about .linkedin:hover { background-size: 4px 50px; color: #ffffff; }
+
+#about .github { text-decoration: none; color: #000000; background: linear-gradient(to bottom, #333 0%, #333 100%); background-position: 0 100%; background-repeat: repeat-x; background-size: 4px 1px; transition: background-size 0.5s; }
+
+#about .github:hover { background-size: 4px 50px; color: #ffffff; }
+
 #experience { display: flex; flex-direction: column; justify-content: space-between; width: 90%; max-width: 960px; margin: 0 auto; }
 
 @media only screen and (min-width: 550px) { #experience { width: 80%; } }
